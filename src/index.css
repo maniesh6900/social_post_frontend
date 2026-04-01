@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 20%, #eef5ff, #f8fafc 30%), #f5f7fb;
+  min-height: 100vh;
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}

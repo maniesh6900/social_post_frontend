@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });
+const api = axios.create({ baseURL: 'https://social-post-backend-8wcj.onrender.com/api' });
 
 export const setAuthToken = (token) => {
   if (token) {
